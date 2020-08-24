@@ -1,2 +1,5 @@
-# my-portofolio
-Get all the information about me at one place!
+# My Portofolio
+
+A website which give you a brief information about me.
+
+## live
