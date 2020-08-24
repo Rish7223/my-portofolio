@@ -638,6 +638,7 @@ footer h3 {
   }
 
   #main {
+    height: 120vh;
     padding: 10px 5%;
   }
 
@@ -678,7 +679,7 @@ footer h3 {
 
   /* about page */
   #about {
-    height: 100vh;
+    height: 120vh;
     background-color: #eeeeee;
     padding: 1% 5%;
   }
@@ -798,6 +799,7 @@ footer h3 {
   /* contact page */
 
   #contact {
+    height: 120vh;
     padding: 2% 5%;
   }
 
@@ -917,7 +919,7 @@ footer h3 {
 of different sections
  */
 
-@media (max-width: 400px) {
+@media (max-width: 500px) {
   /* background */
 
   #background img {
@@ -987,7 +989,7 @@ of different sections
 
   /* about page */
   #about {
-    height: 110vh;
+    height: 155vh;
     background-color: #eeeeee;
     padding: 10vh 5% 10% 5%;
   }
@@ -1009,19 +1011,15 @@ of different sections
   }
 
   #about .info .img img {
-    height: 120px;
-    width: 90px;
+    height: 420px;
+    width: 270px;
     border-radius: 10%;
-    margin-top: 10px;
-  }
-
-  #about .info .text {
-    padding: 0;
+    margin: 10px 0;
   }
 
   #about .info .text p {
     font-size: 0.9rem;
-    padding: 10px 0 0 0;
+    padding: 15px;
   }
 
   #about .info .text h1 {
