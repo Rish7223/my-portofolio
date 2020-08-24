@@ -184,7 +184,7 @@
   margin-bottom: 4rem;
 }
 
-#main .showcase .text .btns button {
+#main .showcase .text .btns a button {
   padding: 12px 40px;
   border-radius: 20px;
   border: 2px solid var(--headdingColor);
@@ -663,7 +663,7 @@ footer h3 {
     margin-bottom: 2rem;
   }
 
-  #main .showcase .text .btns button {
+  #main .showcase .text .btns a button {
     padding: 10px 20px;
     font-size: 0.6rem;
   }
@@ -917,7 +917,7 @@ footer h3 {
 of different sections
  */
 
-@media (max-width: 700px) {
+@media (max-width: 400px) {
   /* background */
 
   #background img {
@@ -976,7 +976,7 @@ of different sections
     margin-bottom: 3rem;
   }
 
-  #main .showcase .text .btns button {
+  #main .showcase .text .btns a button {
     padding: 10px 30px;
   }
 
