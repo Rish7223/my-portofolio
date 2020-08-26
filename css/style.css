@@ -788,8 +788,8 @@ footer h3 {
 
   #projects .row .coloumn {
     height: 100px;
-    width: 120px;
-    font-size: 0.7rem;
+    width: 100px;
+    font-size: 0.5rem;
   }
 
   #projects .row .coloumn img {
@@ -955,6 +955,10 @@ of different sections
     animation: motion-4 1s ease-in-out infinite alternate-reverse;
   }
 
+  #main header {
+    width: 100vw;
+  }
+
   #main .showcase {
     display: flex;
     align-items: center;
@@ -1039,7 +1043,7 @@ of different sections
   }
 
   #about .tech img {
-    height: 50px;
+    height: 40px;
   }
 
   /* projects page */
@@ -1093,7 +1097,8 @@ of different sections
 
   /* contact page */
   #contact {
-    padding: 13vh 0;
+    padding-top: 10vh;
+    height: 100vh;
   }
 
   #contact h5 {
